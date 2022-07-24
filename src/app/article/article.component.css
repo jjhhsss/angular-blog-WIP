@@ -1,0 +1,136 @@
+.blog-container {
+    width: 60%;
+    margin: auto;
+    color: rgb(227, 227, 227);
+    font-family: 'Merriweather';
+}
+
+.right-side {
+    width: 00%;
+    padding: 25px;
+    float: left;
+}
+
+.left-side {
+    float: left;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    /* border-right: 1px solid rgb(225, 225, 225); */
+}
+
+.title {
+    font-size: xx-large;
+    margin-bottom: 5px;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.time {
+    font-size: medium;
+}
+
+.content {
+    font-weight: 50;
+    font-size: medium;
+}
+
+button {
+    /* get rid of all default styles */
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 20px;
+    background-color: rgb(212, 212, 212);
+}
+
+.no-see-background {
+    background-color: rgb(44, 44, 44);
+}
+
+.sign-up {
+    color: rgb(44, 44, 44);
+}
+
+.like {
+    margin-right: 7%;
+}
+
+.reaction:hover {
+    color: rgb(255, 148, 136);
+    transition: 0.05s;
+}
+
+.search {
+    font-size: medium;
+    font-family: inherit;
+    width: 195px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.block {
+    margin-bottom: 5%;
+}
+
+.reccomended-image-wrapper {
+    width: 38%;
+    float: left;
+    /* border: 1px solid white; */
+}
+
+.reccomended-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    float: left;
+}
+
+.article-left-wrapper {
+    margin-left: 2%;
+    width: 60%;
+    float: left;
+    color: rgb(225, 225, 225);
+}
+
+.reccomend-article-info {
+    color: rgb(198, 198, 198);
+    font-size: smaller;
+}
+
+.article {
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid rgb(44, 44, 44);
+}
+
+.article:hover {
+    border: 1px solid rgb(255, 148, 136);
+    /* transition: 2s; */
+}
+
+.article-left {
+    color: rgb(216, 216, 216);
+    margin-bottom: 10px;
+}
+
+.reactions {
+    margin-bottom: 9%;
+}
+
+.search {
+    margin-bottom: 6%;
+}

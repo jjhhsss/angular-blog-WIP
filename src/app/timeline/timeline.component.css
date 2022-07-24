@@ -1,0 +1,116 @@
+.card {
+  width: 700px;
+  height: 216px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  cursor: pointer;
+  /* border: 1px solid salmon; */
+}
+
+.card:hover {
+  border: 1px solid rgb(255, 148, 136);
+  transition: 0.1s;
+  /* border: 1px solid salmon; */
+}
+
+
+.basic-grid {
+  height: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(6, minmax(100px, 1fr));
+  grid-auto-rows: 100px;
+}
+
+.entry-tall {
+  grid-row: span 2 / auto;
+}
+
+.entry-wide {
+  grid-column: auto / span 3;
+}
+
+.entry-wider {
+  grid-column: auto / span 3;
+}
+
+/* borders */
+
+.border-right {
+  border-right: 2px solid rgb(255, 251, 246);
+}
+
+.border-left {
+  border-left: 2px solid rgb(255, 251, 246);
+}
+
+.border-top {
+  border-top: 2px solid rgb(255, 247, 234);
+}
+
+/* font */
+
+.date-right {
+  font-size: 1rem;
+  position: relative;
+  top: 70%;
+  font-family: 'Prompt', sans-serif;
+}
+
+.title-right {
+  font-size: 1.5rem;
+  font-family: 'Prompt', sans-serif;
+  position: relative;
+  top: 69%;
+}
+
+.description-right {
+  font-size: 1rem;
+  font-family: 'Prompt', sans-serif;
+}
+
+.entry {
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.space {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid salmon; */
+  overflow: hidden;
+}
+
+.details {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  /* border: 1px solid rgb(235, 255, 60); */
+  overflow: hidden;
+  color: rgb(230, 230, 230);
+}
+
+
+.top {
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid rgb(235, 255, 60); */
+  overflow: hidden;
+}
+
+.bottom {
+  display: inline-block;
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid rgb(235, 255, 60); */
+  overflow: hidden;
+}

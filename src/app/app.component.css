@@ -1,0 +1,72 @@
+
+
+.title {
+  color: white;
+  font-size: 50px;
+  font-family: 'Merriweather', sans-serif;
+  position: absolute;
+  left: 10%;
+  top: 38%;
+  padding: 30px;
+}
+
+.title-container {
+  width: 100vw;
+  height: 82vh;
+}
+
+.timeline {
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  background: rgb(192, 27, 27);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  border: 2px solid rgb(255, 148, 136);
+}
+
+.logo {
+  color: rgb(221, 221, 221);
+  letter-spacing: 3px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.logo:hover {
+  color: rgb(255, 148, 136);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  width: 35%;
+  justify-content: space-around;
+}
+
+.nav-links li {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 14px;
+  list-style: none;
+  font-family: 'Merriweather';
+}
+
+.nav-links li a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.home-button {
+  overflow-y: hidden}

@@ -1,0 +1,12 @@
+<div class="title-container">
+    <div class="title">
+        My blog about things
+    </div>
+</div>
+
+
+<div class="timeline">
+    <app-timeline *ngFor="let article of articles$ | async; index as i" [article]="(articles$ | async)"
+        [entryIndex]="i + 1" (click)="clicked(i) ">
+    </app-timeline>
+</div>

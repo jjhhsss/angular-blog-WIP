@@ -1,0 +1,35 @@
+<div class="card-container">
+    <div class="card" *ngIf="entryIndex % 2 == 1; else even" (click)="readArticle(article[entryIndex - 1])">
+
+        <div class="space"></div>
+        <div class="details border-left">
+            <div class="top">
+                <span class="date-right">&nbsp;&nbsp;{{ article[entryIndex - 1].date}}</span>
+                <span class="title-right">&nbsp;&nbsp; {{article[entryIndex - 1].title}}</span>
+            </div>
+            <div class="bottom border-top">
+                <p class="description-right">&nbsp;&nbsp;{{article[entryIndex - 1].previewDescription}}</p>
+            </div>
+        </div>
+
+    </div>
+
+    <ng-template #even>
+
+        <div class="card-container">
+            <div class="card">
+                <div class="details">
+                    <div class="top">
+                        <span class="title-right">&nbsp;&nbsp; {{article[entryIndex - 1].title}}</span>
+                        <span class="date-right">&nbsp;&nbsp;{{article[entryIndex - 1].date}}</span>
+                    </div>
+                    <div class="bottom border-top">
+                        <p class="description-right">&nbsp;&nbsp;{{article[entryIndex - 1].previewDescription}}</p>
+                    </div>
+                </div>
+                <div class="space border-left"></div>
+            </div>
+        </div>
+
+    </ng-template>
+</div>

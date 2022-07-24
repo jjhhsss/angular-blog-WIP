@@ -1,0 +1,19 @@
+<div class="app-component">
+  <nav>
+    <div class="logo">
+      <span class="home-button" routerLink="/" routerLinkActive="active"  src="./assets/images/3d-printer.png" alt="home button">Home</span>
+    </div>
+    <div class="logo">
+      <span routerLink="/timeline" routerLinkActive="active">All articles</span>
+    </div>
+  </nav>
+
+
+  <!-- <app-home></app-home> -->
+  <router-outlet></router-outlet>
+  <!-- <article *ngIf="!show" [title]="this.title" [date]="this.date" [body]="this.body"></article> -->
+  <div class="footer">
+    <a href="https://www.flaticon.com/free-icons/3d-printing" title="3d printing icons">3d printing icons created by
+      Freepik - Flaticon</a>
+  </div>
+</div>
